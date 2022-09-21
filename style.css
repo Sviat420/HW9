@@ -24,7 +24,7 @@ align-items:center;
   background-color: #E6E6E6;
 }
 
-.container p{
+p{
   background-color: #FC8F8F;
   height: 100%;
   width: 20%;
@@ -41,4 +41,25 @@ align-items:center;
 .cont_1 {
   display: flex;
 justify-content:space-between;
+}
+
+.cont_2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont_2inside {
+  display: flex;
+  height: 50%;
+}
+
+.items2 {
+min-width: 100px;
+margin-left: 15px;
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+padding-top: 31px;
 }
